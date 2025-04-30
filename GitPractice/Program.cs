@@ -13,6 +13,10 @@ namespace GitPractice
             Console.WriteLine("\n-- Array Helper --");
             int[] numbers = { 4, 2, 9, 1 };
             Console.WriteLine("Max number: " + ArrayHelper.GetMax(numbers));
+
+            Console.WriteLine("\n-- Collection Helper --");
+            List<string> names = new List<string> { "HTML", "CSS", "Angular" };
+            CollectionHelper.PrintList(names);
         }
     }
 }
