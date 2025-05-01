@@ -17,6 +17,11 @@ namespace GitPractice
             Console.WriteLine("\n-- Collection Helper --");
             List<string> names = new List<string> { "HTML", "CSS", "Angular" };
             CollectionHelper.PrintList(names);
+
+            Console.WriteLine("\n-- Factorial Helper --");
+            int n = 5;
+            int result = FactorialHelper.CalculateFact(n);
+            Console.WriteLine($"Factorial of {n} is {result}");
         }
     }
 }
